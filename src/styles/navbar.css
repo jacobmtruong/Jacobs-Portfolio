@@ -1,0 +1,133 @@
+/* *{
+    outline: 1px solid white;
+} */
+
+
+.navbar-container {
+    height: fit-content;
+    width: 100%;
+    padding: 16px 0px 16px 0;
+    left: 0px;
+    top: 0px;
+    /* Neutral / Gray 800 */
+    background: #1E293B;
+
+}
+
+.navbar-small-container {
+    width: 60%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-button-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .navbar-small-container {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navbar-button-container {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        list-style: none;
+    }
+}
+
+@media (min-width: 520px) and (max-width: 1024px) {
+    .navbar-small-container {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navbar-button-container {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        list-style: none;
+    }
+}
+
+
+.navbar-btn {
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 17px;
+    text-align: center;
+    color: #CBD5E1;
+    text-decoration: none;
+    padding: 18px 20px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.navbar-btn-active {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 17px;
+    text-align: center;
+    color: #F1F5F9;
+    text-decoration: none;
+    padding: 18px 20px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border-bottom: 3px solid #F1F5F9;
+}
+
+.navbar-btn:hover {
+    border-bottom: 1px solid #F1F5F9;
+}
+
+.navbar-btn-contact {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #F1F5F9;
+    text-decoration: none;
+    background-color: #64748B;
+    padding: 18px 20px;
+    border-radius: 40px;
+    transition: transform 0.2s;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.navbar-btn-contact:hover {
+    transform: scale(1.07);
+    background-color: #F8FAFC;
+    color: #64748B;
+}
+
+
+
+
