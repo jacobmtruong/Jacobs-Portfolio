@@ -14,14 +14,15 @@ function App() {
     <div>
       <Navbar/>
 
-
+      <FooterPortfolio/>
+      
       <Routes>
         <Route path='*' element={<Navigate to='/projects' replace/>}/>
 
         <Route path='/projects' element={<>
                                             <Banner/>
                                             <ProjectsBanner/>
-                                            <FooterPortfolio/></>}/>
+                                            </>}/>
         <Route path='/introduction' element={<AboutMe/>}/>
 
         <Route path='/contact' element={<ContactForm/>}/>
