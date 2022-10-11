@@ -9,9 +9,11 @@ import ContactForm from './components/ContactForm';
 
 
 function App() {
+
   return (
     <div>
       <Navbar/>
+
 
       <Routes>
         <Route path='*' element={<Navigate to='/projects' replace/>}/>

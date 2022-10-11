@@ -1,9 +1,11 @@
-import React from 'react'
+import {useState} from 'react'
 import {Link} from 'react-router-dom'
 import '../styles/footer.css'
 import jmtsmall from '../images/jmt-small.svg'
 import github from '../images/github.svg'
 import email from '../images/email.svg'
+import linkedin from '../images/linkedin.svg'
+import ContactForm from './ContactForm'
 
 const FooterPortfolio = () => {
 
@@ -12,6 +14,11 @@ const FooterPortfolio = () => {
         window.open(url, '_blank', 'noopener,noreferrer');
       };
 
+      const [contact, setContact] = useState(false)
+
+      const toggleContact = () => {
+          setContact(!contact)
+      }
 
   return (
     <div className='footer-container'>
@@ -22,8 +29,10 @@ const FooterPortfolio = () => {
         <p className='middle-nest'>Let's Connect</p>
         <div className='right-nest'>
             <Link onClick={() => openInNewTab('https://github.com/jacobmtruong')}><img src={github} alt="github-icon" /></Link>
-            <Link to="/contact"><img src={email} alt="email-icon" style={{backgroundColor: "#64748B", borderRadius: '40px'}}/></Link>
+            <Link onClick={() => openInNewTab('https://www.linkedin.com/in/jacob-truong/')}><img src={linkedin} alt="linked-icon" /></Link>
+            <Link onClick={toggleContact}><img src={email} alt="email-icon"/></Link>
         </div>
+        {contact && (<ContactForm toggleContact = {toggleContact}/>)}
     </div>
   )
 }

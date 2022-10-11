@@ -1,12 +1,10 @@
 import React, { useRef } from 'react';
-import { useNavigate } from 'react-router-dom';
 import emailjs from '@emailjs/browser';
 import '../styles/contactform.css'
+import close from '../images/close.svg';
 
-const ContactForm = () => {
+const ContactForm = (props) => {
     const form = useRef();
-
-    const navigate = useNavigate();
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -14,11 +12,11 @@ const ContactForm = () => {
         emailjs.sendForm('service_xaqewea', 'template_rovb20u', form.current, 'FwpjAxS2GjmZTuV_W')
             .then((result) => {
                 console.log(result.text);
-                navigate('/projects')
+                props.toggleContact()
             }, (error) => {
                 console.log(error.text);
             });
-        alert('Email sent successfully!')
+        alert('Thank you! I will contact you shortly ...')
     };
 
     const onKeyDown = (keyEvent) => {
@@ -29,7 +27,9 @@ const ContactForm = () => {
 
     return (
         <div className='box'>
+            <div className='overlay'></div>
             <form ref={form} onSubmit={sendEmail}  onKeyDown={onKeyDown} className='form'>
+            <img src={close} alt="close-icon" className='btn-close' onClick={props.toggleContact}/>
                 <h2>Contact</h2>
                 <div className='inputBox'>
                     <input type="text" name="user_name" required='required'/>
