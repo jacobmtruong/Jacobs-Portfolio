@@ -4,13 +4,12 @@
 
 .projects-banner-container {
     width: 100%;
-    height: fit-content;
+    height: 75vh;
     background-color: #131825;
 }
 
 .projects-banner-small-container {
     width: 60%;
-    height: 600px;
     margin: auto;
     background-color: #131825;
     padding-top: 50px;
