@@ -15,7 +15,7 @@ function App() {
       <Navbar/>
 
       <FooterPortfolio/>
-      
+
       <Routes>
         <Route path='*' element={<Navigate to='/projects' replace/>}/>
 
@@ -26,6 +26,7 @@ function App() {
         <Route path='/introduction' element={<AboutMe/>}/>
 
         <Route path='/contact' element={<ContactForm/>}/>
+
       </Routes>
     </div>
   );

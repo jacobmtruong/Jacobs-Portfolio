@@ -29,7 +29,7 @@ const ProjectsBanner = () => {
                         <p style={{fontSize: "36px"}}>FestLook</p>
                         <p style={{fontSize: "18px", color: "#C3CEE1"}}>Java / Spring Boot / MySQL</p>
                     </div>
-                    <Link className='link'>Learn More</Link>
+                    <Link className='link' to='/project/festlook'>Learn More</Link>
                 </div>
 
                 {/* <Link className='single-project-container'>

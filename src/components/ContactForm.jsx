@@ -25,24 +25,25 @@ const ContactForm = (props) => {
         }
     }
 
+
     return (
         <div className='box'>
             <div className='overlay'></div>
-            <form ref={form} onSubmit={sendEmail}  onKeyDown={onKeyDown} className='form'>
-            <img src={close} alt="close-icon" className='btn-close' onClick={props.toggleContact}/>
+            <form ref={form} onSubmit={sendEmail} onKeyDown={onKeyDown} className='form'>
+                <img src={close} alt="close-icon" className='btn-close' onClick={props.toggleContact} />
                 <h2>Contact</h2>
                 <div className='inputBox'>
-                    <input type="text" name="user_name" required='required'/>
+                    <input type="text" name="user_name" required='required' />
                     <span>Name</span>
                     <i></i>
                 </div>
                 <div className='inputBox'>
-                    <input type="email" name="user_email" required='required'/>
+                    <input type="email" name="user_email" required='required' />
                     <span>Email</span>
                     <i></i>
                 </div>
                 <div className='inputBox'>
-                    <input name="message" required='required'/>
+                    <input name="message" required='required' />
                     <span>Message</span>
                     <i></i>
                 </div>

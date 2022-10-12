@@ -258,9 +258,25 @@
 .image-festlook:hover p{
     opacity: 1;
     transform: scale(1);
+    
+}
+
+@keyframes moving {
+    0% {
+        top: -15px
+    }
+    95% {
+        top: 150px;
+    }
+    100% {
+        top: 165px;
+    }
 }
 
 .image-festlook:hover a{
     opacity: 1;
     transform: scale(1);
 }
+
+
+
