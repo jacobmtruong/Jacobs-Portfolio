@@ -76,3 +76,19 @@ footer {
     opacity: 1.5;
 
 }
+
+@media (min-width: 380px) and (max-width: 600px){
+   .footer-container {
+    flex-direction: column;
+    gap: 10px;
+   }
+
+   footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #1E293B;
+    height: fit-content;
+    padding: 20px 0px;
+}
+}

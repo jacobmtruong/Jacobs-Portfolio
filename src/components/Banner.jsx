@@ -4,10 +4,10 @@ import '../styles/banner.css'
 const Banner = () => {
   return (
     <div className='banner-container'>
-        <p className='name-text'>Jacob Minh Truong</p>
+        <p className='name-text'>Hi, I'm Jacob!</p>
         <div className='small-text'>
-            <p>I’m a Full-Stack Software Developer located in the SF Bay Area.</p>
-            <p className='second-small-text'>Committed and goal-oriented individual with exceptional bilingual customer service and management skills to enhance a company's growth.</p>
+            <p>I’m a Full-Stack Developer, based in the SF Bay Area</p>
+            <p className='second-small-text'>Let's make it happen on the Internet!</p>
         </div>
     </div>
   )

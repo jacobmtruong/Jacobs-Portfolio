@@ -3,4 +3,11 @@ body {
     min-height: 100vh;
     margin: 0;
     padding: 0;
+    padding-top: 100px;
+}
+
+@media  (max-width: 480px) {
+    body {
+        padding-top: 50px;
+    }
 }

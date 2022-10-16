@@ -31,7 +31,7 @@
     width: 80%;
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 20px;
     line-height: 28px;
     text-align: center;
@@ -76,7 +76,4 @@
 
     }
 
-    .second-small-text {
-        display: none;
-    }
 }

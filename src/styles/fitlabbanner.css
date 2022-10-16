@@ -1,0 +1,25 @@
+.fitlab-container {
+    height: 500px;
+    width: 60%;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fitlab-h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #F8FAFC;
+}
+
+.gif {
+    width: 80%;
+    height: 80%;
+    
+}

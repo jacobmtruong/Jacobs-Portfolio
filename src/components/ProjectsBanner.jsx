@@ -20,7 +20,7 @@ const ProjectsBanner = () => {
                         <p style={{fontSize: "36px"}}>FitLab</p>
                         <p style={{fontSize: "18px", color: "#C3CEE1"}}>React JS / Express / Mongoose</p>
                     </div>
-                    <Link className='link'>Learn More</Link>
+                    <Link className='link' to='/project/fitlab'>Learn More</Link>
                 </div>
 
 
