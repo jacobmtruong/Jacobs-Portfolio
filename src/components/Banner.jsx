@@ -9,6 +9,7 @@ const Banner = () => {
             <p>I’m a Full-Stack Developer, based in the SF Bay Area</p>
             <p className='second-small-text'>Let's make it happen on the Internet!</p>
         </div>
+        
     </div>
   )
 }

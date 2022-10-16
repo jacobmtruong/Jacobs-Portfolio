@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/fitlabbanner.css'
-import gif from '../images/gif.gif'
+import gif from '../images/fitlab-gif.gif'
 
 const FitLabBanner = () => {
   return (
@@ -8,6 +8,8 @@ const FitLabBanner = () => {
         <h1 className='fitlab-h1'>FitLab</h1>
         <img src={gif} alt="gif" className='gif'/>
     </div>
+
+    
   )
 }
 

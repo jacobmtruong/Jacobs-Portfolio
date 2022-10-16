@@ -106,7 +106,7 @@
     width: 100%;
     right: 0;
     overflow: auto;
-    background-color: #131825;
+    background-color: #13182591;
     border-radius: 8px;
 }
 
@@ -120,10 +120,8 @@
 }
 
 
-
 /* MOBILE RESPONSIVE */
-
-@media  (max-width: 760px) {
+@media  (max-width: 960px) {
     .navbar-button-container {
        display: none;
     }
