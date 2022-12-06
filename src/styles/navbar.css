@@ -184,6 +184,11 @@
         color: #CBD5E1;
         border-bottom: 1px solid #F1F5F9;
     }
+
+    .btn{
+        background-color: transparent;
+        border: none;
+    }
     
 }
 
