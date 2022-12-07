@@ -125,3 +125,27 @@ footer {
         height: fit-content;
     }
 }
+
+/* iPhone 13 Mini*/
+@media only screen and (device-width: 375px) and (device-height: 812px) {
+    .footer-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .right-nest {
+        padding-bottom: 20px;
+    }
+
+    .left-nest {
+        padding-top: 20px;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background-color: #1E293B;
+        height: fit-content;
+    }
+}

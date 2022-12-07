@@ -210,3 +210,18 @@ input[type="submit"]:hover {
         width: 40%;
     }
 }
+
+
+@media only screen and (device-width: 375px) and (device-height: 812px) {
+    .box::after {display: none;}
+    .box::before {display: none;}
+    .box {
+        top: 50px;
+        left: -19px;
+        width: 340px;
+    }
+    
+    input[type="submit"] {
+        width: 40%;
+    }
+}
