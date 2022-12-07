@@ -126,6 +126,10 @@
        display: none;
     }
 
+    .navbar-container {
+        background-color: transparent;
+    }
+
     .dropdown {
         display: inline-block;
         position: relative;
