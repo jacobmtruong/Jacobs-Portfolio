@@ -283,7 +283,7 @@
 @media (max-width: 960px){
     .projects-banner-container {
         width: calc(100% - 2rem);
-        height: 140vh;
+    
         margin: auto;
     }
 
