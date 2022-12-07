@@ -121,6 +121,8 @@
 
 
 /* MOBILE RESPONSIVE */
+
+/* iPhone 13 Pro Max */
 @media only screen and (device-width: 428px) and (device-height: 926px) {
     .navbar-button-container {
        display: none;
@@ -197,7 +199,7 @@
     
 }
 
-
+/* iPhone SE */
 @media only screen and (device-width: 375px) and (device-height: 667px) {
     .navbar-button-container {
        display: none;

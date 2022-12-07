@@ -279,7 +279,7 @@
     transform: scale(1);
 }
 
-
+/* iPhone 13 Pro Max */
 @media only screen and (device-width: 428px) and (device-height: 926px){
     .projects-banner-container {
         width: calc(100% - 2rem);
@@ -306,33 +306,8 @@
         width: 100%;
     }
 }
-@media only screen and (device-width: 428px) and (device-height: 926px){
-    .projects-banner-container {
-        width: calc(100% - 2rem);
-        height: 160vh;
-        margin: auto;
-    }
 
-    .projects-banner-small-container {
-        display: flex;
-        flex-direction: column;
-        gap: 50px;
-        width: 80%;
-    }
-
-    .image-dmv {
-        width: 100%;
-    }
-
-    .image-fitlab {
-        width: 100%;
-    }
-
-    .image-festlook {
-        width: 100%;
-    }
-}
-
+/* iPhone SE */
 @media only screen and (device-width: 375px) and (device-height: 667px){
     .projects-banner-container {
         width: calc(100% - 2rem);
