@@ -121,7 +121,7 @@
 
 
 /* MOBILE RESPONSIVE */
-@media  (max-width: 960px) {
+@media  (max-width: 930px) {
     .navbar-button-container {
        display: none;
     }

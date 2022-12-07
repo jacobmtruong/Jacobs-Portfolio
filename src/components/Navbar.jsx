@@ -8,38 +8,12 @@ import menu from '../images/menu.svg'
 // import { BurgerSpin as icon} from 'react-burger-icons'
 
 const Navbar = () => {
-    // Open In New Tab
-    // const openInNewTab = url => {
-    //     window.open(url, '_blank', 'noopener,noreferrer');
-    // };
-
-    // download files
-    // const onClickResume = () => {
-    //     // using Java Script method to get PDF file
-    //     fetch('Jacob_Truong_resume.pdf').then(response => {
-    //         response.blob().then(blob => {
-    //             // Creating new object of PDF file
-    //             const fileURL = window.URL.createObjectURL(blob);
-    //             // Setting various property values
-    //             let alink = document.createElement('a');
-    //             alink.href = fileURL;
-    //             alink.download = 'Jacob_Truong_resume.pdf';
-    //             alink.click();
-    //         })
-    //     })
-    // }
 
     const [contact, setContact] = useState(false)
 
     const toggleContact = () => {
         setContact(!contact)
     }
-
-    // const [isClosed, setIsClosed] = useState(false)
-
-    // const toggleClosed = () => {
-    //     setIsClosed(!isClosed)
-    // }
 
     return (
         <>
