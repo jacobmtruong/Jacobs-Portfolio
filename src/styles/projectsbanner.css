@@ -283,7 +283,7 @@
 @media only screen and (device-width: 390px) and (device-height: 926px){
     .projects-banner-container {
         width: calc(100% - 2rem);
-        height: 165vh;
+        height: 148vh;
         margin: auto;
     }
 
@@ -296,7 +296,7 @@
     }
 
     .image-dmv {
-        width: 10%;
+        width: 100%;
     }
 
     .image-fitlab {
