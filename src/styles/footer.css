@@ -127,7 +127,7 @@ footer {
 }
 
 /* iPhone 13 Mini*/
-@media only screen and (device-width: 375px) and (device-height: 812px) {
+@media only screen and (device-width: 375px) and (device-height: 780px) {
     .footer-container {
         flex-direction: column;
         gap: 10px;

@@ -336,10 +336,10 @@
 }
 
 /* iPhone 13 Mini */
-@media only screen and (device-width: 375px) and (device-height: 812px){
+@media only screen and (device-width: 375px) and (device-height: 780px){
     .projects-banner-container {
         width: calc(100% - 2rem);
-        height: 160vh;
+        height: 170vh;
         margin: auto;
     }
 

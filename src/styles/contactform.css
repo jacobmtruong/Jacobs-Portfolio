@@ -212,7 +212,7 @@ input[type="submit"]:hover {
 }
 
 
-@media only screen and (device-width: 375px) and (device-height: 812px) {
+@media only screen and (device-width: 375px) and (device-height: 780px) {
     .box::after {display: none;}
     .box::before {display: none;}
     .box {
