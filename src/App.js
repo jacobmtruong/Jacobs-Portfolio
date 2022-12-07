@@ -18,9 +18,9 @@ function App() {
       <FooterPortfolio/>
 
       <Routes>
-        <Route path='*' element={<Navigate to='/projects' replace/>}/>
+        <Route path='*' element={<Navigate to='/' replace/>}/>
 
-        <Route path='/projects' element={<>
+        <Route path='/' element={<>
                                             <Banner/>
                                             <ProjectsBanner/>
                                             </>}/>
