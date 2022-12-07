@@ -82,6 +82,10 @@ footer {
     flex-direction: column;
     gap: 10px;
    }
+   
+   .right-nest {
+    padding-bottom: 20px;
+   }
 
    footer {
     position: absolute;
