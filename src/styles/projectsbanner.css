@@ -283,7 +283,7 @@
 @media only screen and (max-width: 428px){
     .projects-banner-container {
         width: calc(100% - 2rem);
-        height: 148vh;
+        height: 175vh;
         margin: auto;
     }
 
