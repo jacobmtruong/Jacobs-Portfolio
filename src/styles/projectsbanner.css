@@ -280,10 +280,10 @@
 }
 
 
-@media (max-width: 960px){
+@media only screen and (max-width: 420px){
     .projects-banner-container {
         width: calc(100% - 2rem);
-    
+        height: 140vh;
         margin: auto;
     }
 
