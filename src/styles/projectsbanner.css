@@ -280,10 +280,10 @@
 }
 
 
-@media only screen and (max-width: 420px){
+@media only screen and (max-height: 900px){
     .projects-banner-container {
         width: calc(100% - 2rem);
-        height: 140vh;
+        height: 165vh;
         margin: auto;
     }
 
@@ -292,7 +292,7 @@
         flex-direction: column;
         gap: 50px;
         width: 80%;
-        height: 100vh;
+        height: fit-content;
     }
 
     .image-dmv {
