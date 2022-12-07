@@ -283,7 +283,7 @@
 @media only screen and (device-width: 428px) and (device-height: 926px){
     .projects-banner-container {
         width: calc(100% - 2rem);
-        height: 145vh;
+        height: 160vh;
         margin: auto;
     }
 
