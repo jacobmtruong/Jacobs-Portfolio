@@ -183,3 +183,12 @@ input[type="submit"]:hover {
     border-radius: 40px;
     text-align: center;
 }
+
+@media only screen and (device-width: 428px) and (device-height: 926px) {
+    .box::after {display: none;}
+    .box::before {display: none;}
+    .box {
+        top: 50px;
+        width: 400px;
+    }
+}
