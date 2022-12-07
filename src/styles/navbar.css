@@ -139,7 +139,7 @@
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        padding: 20px 0px 10px 10px;
+        padding: 20px 0px 10px 15px;
     }
     .dropdown-content{
         position: absolute;
