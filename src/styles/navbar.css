@@ -121,7 +121,7 @@
 
 
 /* MOBILE RESPONSIVE */
-@media  (max-width: 930px) {
+@media only screen and (device-width: 428px) and (device-height: 926px) {
     .navbar-button-container {
        display: none;
     }
