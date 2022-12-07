@@ -282,12 +282,14 @@
 
 @media only screen and (device-width: 390px) and (device-height: 926px){
     .projects-banner-container {
+        background-color: transparent;
         width: calc(100% - 2rem);
         height: 148vh;
         margin: auto;
     }
 
     .projects-banner-small-container {
+        background-color: transparent;
         display: flex;
         flex-direction: column;
         gap: 50px;
