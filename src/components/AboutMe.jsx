@@ -1,9 +1,10 @@
 import React from 'react'
+import '../styles/aboutme.css'
 
 const AboutMe = () => {
   return (
-    <div style={{color:'red', marginTop:"100px"}}>
-        <h1>Hello</h1>
+    <div className='aboutme-container'>
+        <h1 style={{fontSize: '50px'}}>Coming Soon</h1>
     </div>
   )
 }

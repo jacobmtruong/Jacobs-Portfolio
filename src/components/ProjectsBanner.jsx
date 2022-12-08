@@ -1,6 +1,5 @@
 import React from 'react';
 import '../styles/projectsbanner.css'
-import { Link } from 'react-router-dom'
 
 const ProjectsBanner = () => {
     return (
@@ -12,7 +11,7 @@ const ProjectsBanner = () => {
                         <p style={{fontSize: "36px"}}>DMV Rex</p>
                         <p style={{fontSize: "18px", color: "#C3CEE1"}}>Python / Flask / MySQL</p>
                     </div>
-                    <Link className='link'>Learn More</Link>
+                    <a className='link' href={"https://github.com/jacobmtruong/Projects"} target="_blank" rel='noopener noreferrer'>Learn More</a>
                 </div>
 
                 <div className='image-fitlab'>
@@ -20,7 +19,7 @@ const ProjectsBanner = () => {
                         <p style={{fontSize: "36px"}}>FitLab</p>
                         <p style={{fontSize: "18px", color: "#C3CEE1"}}>React JS / Express / Mongoose</p>
                     </div>
-                    <Link className='link' to='/project/fitlab'>Learn More</Link>
+                    <a className='link' href={"https://github.com/jacobmtruong/FitLab"} target="_blank" rel='noopener noreferrer'>Learn More</a>
                 </div>
 
 
@@ -29,7 +28,7 @@ const ProjectsBanner = () => {
                         <p style={{fontSize: "36px"}}>FestLook</p>
                         <p style={{fontSize: "18px", color: "#C3CEE1"}}>Java / Spring Boot / MySQL</p>
                     </div>
-                    <Link className='link' to='/project/festlook'>Learn More</Link>
+                    <a className='link' href={"https://github.com/jacobmtruong/FESTLOOK_Project"} target="_blank" rel='noopener noreferrer'>Learn More</a>
                 </div>
             </div>
         </div>
