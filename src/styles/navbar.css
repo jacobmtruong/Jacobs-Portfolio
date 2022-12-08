@@ -106,7 +106,7 @@
     width: 100%;
     right: 7px;
     overflow: auto;
-    background-color: #131825f1;
+    background-color: #13182591;
     border-radius: 8px;
 }
 
@@ -123,7 +123,7 @@
 /* MOBILE RESPONSIVE */
 
 /* iPhone 13 Pro Max */
-@media only screen and (max-width: 1200px) and (min-height: 760px){
+@media only screen and (device-width: 428px) and (device-height: 926px) {
     .navbar-button-container {
        display: none;
     }
@@ -198,4 +198,165 @@
     }
     
 }
+
+/* iPhone SE */
+@media only screen and (device-width: 375px) and (device-height: 667px) {
+    .navbar-button-container {
+       display: none;
+    }
+
+    .navbar-container {
+        background-color: transparent;
+    }
+
+    .dropdown {
+        display: inline-block;
+        position: relative;
+    }
+
+    .navbar-small-container {
+        width: 90%;
+        height: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 0px 15px 15px;
+    }
+    .dropdown-content{
+        position: absolute;
+    }
+
+    .navbar-btn-active {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 16px;
+        line-height: 17px;
+        text-align: center;
+        color: #F1F5F9;
+        text-decoration: none;
+        padding: 18px 20px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        background-color: #64748B;
+        border: none;
+    }
+
+    .navbar-btn-contact {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 0;
+        font-size: 16px;
+        line-height: 17px;
+        text-align: center;
+        letter-spacing: 0;
+        text-transform: none;
+        color: #CBD5E1;
+        text-decoration: none;
+        background-color: transparent;
+        padding: 18px 20px;
+        border-radius: 0;
+        transition: transform 0;
+    }
+
+    .navbar-btn-contact:hover {
+        transform: none;
+        background-color: transparent;
+        color: #CBD5E1;
+        border-bottom: 1px solid #F1F5F9;
+    }
+
+    .btn{
+        background-color: transparent;
+        border: none;
+    }
+    
+}
+
+/* iPhone 13 Mini */
+@media only screen and (device-width: 375px) and (device-height: 780px) {
+    .navbar-button-container {
+       display: none;
+    }
+
+    .navbar-container {
+        background-color: transparent;
+    }
+
+    .dropdown {
+        display: inline-block;
+        position: relative;
+    }
+
+    .navbar-small-container {
+        width: 90%;
+        height: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 0px 15px 15px;
+    }
+    .dropdown-content{
+        position: absolute;
+        right: 20px;
+    }
+
+    .navbar-btn-active {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 16px;
+        line-height: 17px;
+        text-align: center;
+        color: #F1F5F9;
+        text-decoration: none;
+        padding: 18px 20px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        background-color: #64748B;
+        border: none;
+    }
+
+    .navbar-btn-contact {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 0;
+        font-size: 16px;
+        line-height: 17px;
+        text-align: center;
+        letter-spacing: 0;
+        text-transform: none;
+        color: #CBD5E1;
+        text-decoration: none;
+        background-color: transparent;
+        padding: 18px 20px;
+        border-radius: 0;
+        transition: transform 0;
+    }
+
+    .navbar-btn-contact:hover {
+        transform: none;
+        background-color: transparent;
+        color: #CBD5E1;
+        border-bottom: 1px solid #F1F5F9;
+    }
+
+    .btn{
+        background-color: transparent;
+        border: none;
+    }
+    
+}
+
+
+
+
+
+
 
