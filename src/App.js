@@ -23,6 +23,7 @@ function App() {
         <Route path='/home' element={<>
                                             <Banner/>
                                             <ProjectsBanner/>
+                                            <FooterPortfolio/>
                                             </>}/>
         <Route path='/introduction' element={<AboutMe/>}/>
 
@@ -34,7 +35,6 @@ function App() {
 
       </Routes>
 
-      <FooterPortfolio/>
     </div>
   );
 }
