@@ -3,6 +3,8 @@
 } */
 
 footer {
+    position: absolute;
+    bottom: 0;
     width: 100%;
     background-color: #1E293B;
     height: fit-content;
@@ -91,7 +93,7 @@ footer {
     }
 
     footer {
-        bottom: 0;
+        position: static;
         width: 100%;
         background-color: #1E293B;
         height: fit-content;
