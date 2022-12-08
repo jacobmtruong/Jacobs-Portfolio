@@ -15,7 +15,7 @@ function App() {
     <div>
       <Navbar/>
 
-      <FooterPortfolio/>
+
 
       <Routes>
         <Route path='*' element={<Navigate to='/' replace/>}/>
@@ -33,6 +33,8 @@ function App() {
                                                   </>}/>
 
       </Routes>
+
+      <FooterPortfolio/>
     </div>
   );
 }

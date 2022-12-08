@@ -3,8 +3,6 @@
 } */
 
 footer {
-    position: absolute;
-    bottom: 0;
     width: 100%;
     background-color: #1E293B;
     height: fit-content;
@@ -105,6 +103,32 @@ footer {
 /* iPhone SE */
 @media only screen and (device-width: 375px) and (device-height: 667px) {
     .footer-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .right-nest {
+        padding-bottom: 20px;
+    }
+
+    .left-nest {
+        padding-top: 20px;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background-color: #1E293B;
+        height: fit-content;
+    }
+}
+
+/* iPhone S13 mini */
+@media only screen and (device-width: 375px) and (device-height: 780px) {
+    .footer-container {
+        display: flex;
         flex-direction: column;
         gap: 10px;
     }
