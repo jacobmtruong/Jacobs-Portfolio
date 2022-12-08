@@ -185,8 +185,9 @@ input[type="submit"]:hover {
 }
 
 
-/* iPhone 13 Pro Max */
-@media only screen and (device-width: 428px) and (device-height: 926px) {
+/* responsice */
+
+@media only screen and (max-width: 700px) {
     .box::after {display: none;}
     .box::before {display: none;}
     .box {
@@ -195,33 +196,18 @@ input[type="submit"]:hover {
     }
 }
 
-
-/* iPhone SE */
-@media only screen and (device-width: 375px) and (device-height: 667px) {
+@media only screen and (max-width: 350px) {
     .box::after {display: none;}
     .box::before {display: none;}
     .box {
         top: 50px;
-        left: -19px;
-        width: 340px;
+        left: -28px;
+        width: 300px;
     }
-    
-    input[type="submit"] {
-        width: 40%;
+
+    input[type='submit'] {
+        width: 50%;
     }
 }
 
 
-@media only screen and (device-width: 375px) and (device-height: 780px) {
-    .box::after {display: none;}
-    .box::before {display: none;}
-    .box {
-        top: 50px;
-        left: -19px;
-        width: 340px;
-    }
-    
-    input[type="submit"] {
-        width: 40%;
-    }
-}
