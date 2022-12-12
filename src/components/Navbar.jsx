@@ -19,12 +19,12 @@ const Navbar = () => {
         <>
             <div className='navbar-container'>
                 <div className='navbar-small-container'>
-                    <NavLink to='/home'><img src={jmt} alt="jmt-logo" /></NavLink>
+                    <NavLink to='/'><img src={jmt} alt="jmt-logo" /></NavLink>
 
                     <nav>
 
                         <ul className='navbar-button-container'>
-                            <li><NavLink to='/home' className={({ isActive }) => (isActive ? "navbar-btn-active" : "navbar-btn")}>Projects</NavLink></li>
+                            <li><NavLink to='/' className={({ isActive }) => (isActive ? "navbar-btn-active" : "navbar-btn")}>Projects</NavLink></li>
                             <li><NavLink to='/introduction' className={({ isActive }) => (isActive ? "navbar-btn-active" : "navbar-btn")}>About Me</NavLink></li>
                             <li><a href={resume} download="JacobTruong_resume.pdf" className="navbar-btn">Resume</a></li>
                             <li><NavLink onClick={toggleContact} className='navbar-btn-contact'>Contact</NavLink></li>
