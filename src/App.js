@@ -1,4 +1,4 @@
-import {Routes, Route, Navigate} from 'react-router-dom'
+import { Routes, Route, Navigate } from 'react-router-dom'
 import Navbar from "./components/Navbar";
 import './App.css'
 import AboutMe from './components/AboutMe';
@@ -13,25 +13,25 @@ function App() {
 
   return (
     <div>
-      <Navbar/>
+      <Navbar />
 
 
 
       <Routes>
-        <Route path='*' element={<Navigate to='/home' replace/>}/>
+        <Route path='*' element={<Navigate to='/' replace />} />
 
-        <Route path='/home' element={<>
-                                            <Banner/>
-                                            <ProjectsBanner/>
-                                            <FooterPortfolio/>
-                                            </>}/>
-        <Route path='/introduction' element={<AboutMe/>}/>
+        <Route path='/' element={<>
+          <Banner />
+          <ProjectsBanner />
+          <FooterPortfolio />
+        </>} />
+        <Route path='/introduction' element={<AboutMe />} />
 
-        <Route path='/contact' element={<ContactForm/>}/>
+        <Route path='/contact' element={<ContactForm />} />
 
         <Route path='/project/fitlab' element={<>
-                                                  <FitLabBanner/>
-                                                  </>}/>
+          <FitLabBanner />
+        </>} />
 
       </Routes>
 
