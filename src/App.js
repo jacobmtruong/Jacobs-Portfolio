@@ -20,6 +20,12 @@ function App() {
       <Routes>
         <Route path='*' element={<Navigate to='/' replace />} />
 
+        <Route path='/' element={<>
+          <Banner />
+          <ProjectsBanner />
+          <FooterPortfolio />
+        </>} />
+
         <Route path='/home' element={<>
           <Banner />
           <ProjectsBanner />
