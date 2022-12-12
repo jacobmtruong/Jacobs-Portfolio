@@ -34,7 +34,7 @@ const Navbar = () => {
                         <div className="dropdown">
                             <button className="btn"><img src={menu} alt='menu-icon'/></button>
                             <div className='dropdown-content'>
-                                <NavLink to='/home' className={({ isActive }) => (isActive ? "navbar-btn-active" : "navbar-btn")}>Projects</NavLink>
+                                <NavLink to='/' className={({ isActive }) => (isActive ? "navbar-btn-active" : "navbar-btn")}>Projects</NavLink>
                                 <NavLink to='/introduction' className={({ isActive }) => (isActive ? "navbar-btn-active" : "navbar-btn")}>About Me</NavLink>
                                 <a href={resume} download="JacobTruong_resume.pdf" className="navbar-btn">Resume</a>
                                 <NavLink onClick={toggleContact} className='navbar-btn-contact'>Contact Me</NavLink>
