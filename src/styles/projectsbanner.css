@@ -1,239 +1,290 @@
 * {
-    /* outline: 1px solid white; */
-    font-family: "Inter";
+  /* outline: 1px solid white; */
+  font-family: "Inter";
 }
 
 .projects-banner-container {
-    width: 100%;
-    height: 70vh;
-    background-color: #131825;
+  width: 100%;
+  height: 70vh;
+  background-color: #131825;
 }
 
 .projects-banner-small-container {
-    width: 60%;
-    margin: auto;
-    background-color: #131825;
-    padding: 30px 0px;
-    display: flex;
-    justify-content: center;
-    gap: 40px;
+  width: 75%;
+  margin: auto;
+  background-color: #131825;
+  padding: 30px 0px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
 }
 
 .image-dmv {
-    width: 30%;
-    height: 350px;
-    transition: 1s;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: url(../images/dmvrex.png);
-    background-size: cover;
-    background-position: 25% 80%; 
-    gap: 60px;
-    border-radius: 8px;
-    opacity: 0.8;
+  width: 30%;
+  height: 350px;
+  transition: 1s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/dmvrex.png);
+  background-size: cover;
+  background-position: 25% 80%;
+  gap: 60px;
+  border-radius: 8px;
+  opacity: 0.8;
 }
 
-.image-dmv p{
-    opacity: 0;
-    transform: scale(0);
-    transition: 0.8s;
-    font-size: 2rem;
-    color: white;
-    margin: 10px;
-    font-family: "Inter";
-    text-align: center;
+.image-dmv p {
+  opacity: 0;
+  transform: scale(0);
+  transition: 0.8s;
+  font-size: 2rem;
+  color: white;
+  margin: 10px;
+  font-family: "Inter";
+  text-align: center;
 }
 
-.image-dmv a{
-    opacity: 0;
-    transform: scale(0);
-    transition: 0.8s;
-    font-size: 14px;
-    color: #f2f2f2;
-    margin: 0;
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 18px 20px;
-    background: #64748B;
-    border-radius: 40px;
+.image-dmv a {
+  opacity: 0;
+  transform: scale(0);
+  transition: 0.8s;
+  font-size: 14px;
+  color: #f2f2f2;
+  margin: 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 18px 20px;
+  background: #64748b;
+  border-radius: 40px;
 }
 
 .image-dmv:hover {
-    box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.9) inset;
+  box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.9) inset;
 }
 
-.image-dmv:hover p{
-    opacity: 1;
-    transform: scale(1);
+.image-dmv:hover p {
+  opacity: 1;
+  transform: scale(1);
 }
 
-.image-dmv:hover a{
-    opacity: 1;
-    transform: scale(1);
+.image-dmv:hover a {
+  opacity: 1;
+  transform: scale(1);
 }
 
 .link:hover {
-    background: #f2f2f2;
-    color: #64748B;
+  background: #f2f2f2;
+  color: #64748b;
 }
-
-
 
 .image-fitlab {
-    width: 30%;
-    height: 350px;
-    transition: 1s;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: url(../images/FitLab.png);
-    background-size: cover;
-    background-position: 0; 
-    gap: 60px;
-    border-radius: 8px;
-    opacity: 0.8;
+  width: 30%;
+  height: 350px;
+  transition: 1s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/FitLab.png);
+  background-size: cover;
+  background-position: 0;
+  gap: 60px;
+  border-radius: 8px;
+  opacity: 0.8;
 }
 
-.image-fitlab p{
-    opacity: 0;
-    transform: scale(0);
-    transition: 0.8s;
-    font-size: 2rem;
-    color: white;
-    margin: 10px;
-    font-family: "Inter";
-    text-align: center;
+.image-fitlab p {
+  opacity: 0;
+  transform: scale(0);
+  transition: 0.8s;
+  font-size: 2rem;
+  color: white;
+  margin: 10px;
+  font-family: "Inter";
+  text-align: center;
 }
 
-.image-fitlab a{
-    opacity: 0;
-    transform: scale(0);
-    transition: 0.8s;
-    font-size: 14px;
-    color: #f2f2f2;
-    margin: 0;
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 18px 20px;
-    background: #64748B;
-    border-radius: 40px;
+.image-fitlab a {
+  opacity: 0;
+  transform: scale(0);
+  transition: 0.8s;
+  font-size: 14px;
+  color: #f2f2f2;
+  margin: 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 18px 20px;
+  background: #64748b;
+  border-radius: 40px;
 }
 
 .image-fitlab:hover {
-    box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.9) inset;
+  box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.9) inset;
 }
 
-.image-fitlab:hover p{
-    opacity: 1;
-    transform: scale(1);
+.image-fitlab:hover p {
+  opacity: 1;
+  transform: scale(1);
 }
 
-.image-fitlab:hover a{
-    opacity: 1;
-    transform: scale(1);
+.image-fitlab:hover a {
+  opacity: 1;
+  transform: scale(1);
 }
-
-
 
 .image-festlook {
-    width: 30%;
-    height: 350px;
-    transition: 1s;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: url(../images/FestLook.png);
-    background-size: cover;
-    background-position: 50%; 
-    gap: 60px;
-    border-radius: 8px;
-    opacity: 0.8;
+  width: 30%;
+  height: 350px;
+  transition: 1s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/FestLook.png);
+  background-size: cover;
+  background-position: 50%;
+  gap: 60px;
+  border-radius: 8px;
+  opacity: 0.8;
 }
 
-.image-festlook p{
-    opacity: 0;
-    transform: scale(0);
-    transition: 0.8s;
-    font-size: 2rem;
-    color: white;
-    margin: 10px;
-    font-family: "Inter";
-    text-align: center;
+.image-festlook p {
+  opacity: 0;
+  transform: scale(0);
+  transition: 0.8s;
+  font-size: 2rem;
+  color: white;
+  margin: 10px;
+  font-family: "Inter";
+  text-align: center;
 }
 
-.image-festlook a{
-    opacity: 0;
-    transform: scale(0);
-    transition: 0.8s;
-    font-size: 14px;
-    color: #f2f2f2;
-    margin: 0;
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 18px 20px;
-    background: #64748B;
-    border-radius: 40px;
+.image-festlook a {
+  opacity: 0;
+  transform: scale(0);
+  transition: 0.8s;
+  font-size: 14px;
+  color: #f2f2f2;
+  margin: 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 18px 20px;
+  background: #64748b;
+  border-radius: 40px;
 }
 
 .image-festlook:hover {
-    box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.9) inset;
+  box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.9) inset;
 }
 
-.image-festlook:hover p{
-    opacity: 1;
-    transform: scale(1);
-    
+.image-festlook:hover p {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.image-godzillapi {
+  width: 30%;
+  height: 350px;
+  transition: 1s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/godzillapi.png);
+  background-size: cover;
+  background-position: 50%;
+  gap: 60px;
+  border-radius: 8px;
+  opacity: 0.8;
+}
+
+.image-godzillapi p {
+  opacity: 0;
+  transform: scale(0);
+  transition: 0.8s;
+  font-size: 2rem;
+  color: white;
+  margin: 10px;
+  font-family: "Inter";
+  text-align: center;
+}
+
+.image-godzillapi a {
+  opacity: 0;
+  transform: scale(0);
+  transition: 0.8s;
+  font-size: 14px;
+  color: #f2f2f2;
+  margin: 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 18px 20px;
+  background: #64748b;
+  border-radius: 40px;
+}
+
+.image-godzillapi:hover {
+  box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.9) inset;
+}
+
+.image-godzillapi:hover p {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.image-godzillapi:hover a {
+  opacity: 1;
+  transform: scale(1);
 }
 
 @keyframes moving {
-    0% {
-        top: -15px
-    }
-    95% {
-        top: 150px;
-    }
-    100% {
-        top: 165px;
-    }
+  0% {
+    top: -15px;
+  }
+  95% {
+    top: 150px;
+  }
+  100% {
+    top: 165px;
+  }
 }
 
-.image-festlook:hover a{
-    opacity: 1;
-    transform: scale(1);
+.image-festlook:hover a {
+  opacity: 1;
+  transform: scale(1);
 }
 
 /* iPhone 13 Pro Max */
-@media only screen and (max-width: 1200px){
-    .projects-banner-container {
-        width: calc(100% - 2rem);
-        height: fit-content;
-        margin: auto;
-    }
+@media only screen and (max-width: 1200px) {
+  .projects-banner-container {
+    width: calc(100% - 2rem);
+    height: fit-content;
+    margin: auto;
+  }
 
-    .projects-banner-small-container {
-        display: flex;
-        flex-direction: column;
-        gap: 50px;
-        width: 94%;
-        height: 100%;
-        padding: 50px 0px;
-    }
+  .projects-banner-small-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 94%;
+    height: 100%;
+    padding: 50px 0px;
+  }
 
-    .image-dmv {
-        width: 100%;
-    }
+  .image-dmv {
+    width: 100%;
+  }
 
-    .image-fitlab {
-        width: 100%;
-    }
+  .image-fitlab {
+    width: 100%;
+  }
 
-    .image-festlook {
-        width: 100%;
-    }
+  .image-festlook {
+    width: 100%;
+  }
+  .image-godzillapi {
+    width: 100%;
+  }
 }
-
-
