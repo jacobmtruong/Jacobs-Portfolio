@@ -6,7 +6,6 @@ import Banner from "./components/Banner";
 import ProjectsBanner from "./components/ProjectsBanner";
 import FooterPortfolio from "./components/FooterPortfolio";
 import ContactForm from "./components/ContactForm";
-import FitLabBanner from "./components/FitLabBanner";
 import DMVRex from "./components/projects/DMVRex";
 
 function App() {
