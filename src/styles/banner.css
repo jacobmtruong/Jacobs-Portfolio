@@ -16,7 +16,7 @@
 .name-text {
   font-family: "Inter";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 200;
   font-size: 70px;
   line-height: 100px;
   /* identical to box height, or 117% */
@@ -33,7 +33,7 @@
 
 @keyframes back {
   100% {
-    background-position: 2000px 0;
+    background-position: 1000px 0;
   }
 }
 
