@@ -3,79 +3,84 @@
 } */
 
 .banner-container {
-    width: 60%;
-    height: fit-content;
-    margin: auto;
-    background: #1E293B;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 24px 0 48px 0;
+  width: 60%;
+  height: fit-content;
+  margin: auto;
+  background: #1e293b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 0 48px 0;
 }
 
 .name-text {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 56px;
-    /* identical to box height, or 117% */
-    text-align: center;
-    letter-spacing: -0.04em;
-    /* Neutral / Gray 50 */
-    color: #F8FAFC;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 70px;
+  line-height: 100px;
+  /* identical to box height, or 117% */
+  text-align: center;
+  letter-spacing: -0.04em;
+  /* Neutral / Gray 50 */
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+  background: url(../images/back.png);
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: back 20s linear infinite;
+}
 
+@keyframes back {
+  100% {
+    background-position: 2000px 0;
+  }
 }
 
 .small-text {
-    width: 80%;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 28px;
-    text-align: center;
-    color: #CBD5E1;
+  width: 80%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #cbd5e1;
 }
 
-
 .project-arrow {
-    opacity: 0.4;
+  opacity: 0.4;
 }
 
 .project-arrow:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-    .banner-container {
-        width: 60%;
-        height: fit-content;
-        margin: auto;
-        background: #1E293B;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 48px 84px;
-    }
+  .banner-container {
+    width: 60%;
+    height: fit-content;
+    margin: auto;
+    background: #1e293b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 84px;
+  }
 
-    .second-small-text {
-        display: none;
-    }
+  .second-small-text {
+    display: none;
+  }
 }
 
 @media (min-width: 520px) and (max-width: 1024px) {
-    .banner-container {
-        width: 80%;
-        height: fit-content;
-        margin: auto;
-        background: #1E293B;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-    }
-
+  .banner-container {
+    width: 80%;
+    height: fit-content;
+    margin: auto;
+    background: #1e293b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
-
-
