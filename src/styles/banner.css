@@ -68,7 +68,10 @@
     padding: 48px 84px;
   }
 
-  .second-small-text {
+  .small-text {
+    width: 100%;
+  }
+  .fullstackdev {
     display: none;
   }
 }
