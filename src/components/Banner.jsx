@@ -11,7 +11,7 @@ const Banner = () => {
         </p>
         <p className="second-small-text">
           Making the world a better place through creative software development,
-          culture, and fun vibes
+          culture, and fun vibes. Let's make it happen!
         </p>
       </div>
     </div>
