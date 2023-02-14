@@ -33,6 +33,16 @@
   gap: 60px;
   border-radius: 8px;
   opacity: 0.8;
+  animation: loading 4s forwards;
+}
+
+@keyframes loading {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .image-dmv p {
@@ -93,6 +103,7 @@
   gap: 60px;
   border-radius: 8px;
   opacity: 0.8;
+  animation: loading 4s forwards;
 }
 
 .image-fitlab p {
@@ -148,6 +159,7 @@
   gap: 60px;
   border-radius: 8px;
   opacity: 0.8;
+  animation: loading 4s forwards;
 }
 
 .image-festlook p {
@@ -198,6 +210,7 @@
   gap: 60px;
   border-radius: 8px;
   opacity: 0.8;
+  animation: loading 4s forwards;
 }
 
 .image-godzillapi p {
